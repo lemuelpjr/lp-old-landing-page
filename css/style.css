@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.alert-msg, .contact-msg {
+  padding: 30px;
+}
+
+.contact-msg {
+  margin-bottom: 60px;
+}
+
+.contact-btn {
+  color: #fff;
+  background: #f03;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 20px;
+}
