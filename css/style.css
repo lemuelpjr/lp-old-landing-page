@@ -4,14 +4,24 @@
   box-sizing: border-box;
 }
 
-header {
+.header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(51, 51, 51, 0.7), rgba(85, 85, 85, 0.7)), url(../img/work-desk.jpg);
+  background-image: linear-gradient(to right bottom, rgba(20, 20, 20, 0.8), rgba(100, 100, 100, 0.8)), url(../img/work-desk.jpg);
   background-size: cover;
   background-position: center;
-  color: #fff;
-  text-align: center;
+  color: #eee;
   font-family: 'Syncopate', sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+.info {
+  text-align: center;
+  letter-spacing: 2.4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .alert-msg, .contact-msg {
@@ -19,15 +29,23 @@ header {
 }
 
 .contact-msg {
+  font-size: 18px;
   margin-bottom: 60px;
 }
 
 .contact-btn {
-  color: #fff;
+  color: #eee;
   background: #f03;
   font-size: 20px;
-  font-weight: 700;
   text-decoration: none;
-  padding: 15px;
-  border-radius: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 5px 30px #222;
+}
+
+.contact-btn:hover {
+  box-shadow: none;
+  background-color: #333;
+  color: #f03;
+  transition: box-shadow, background-color, color 0.6s;
 }
