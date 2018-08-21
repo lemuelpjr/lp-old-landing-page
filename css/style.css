@@ -1,6 +1,14 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
   box-sizing: border-box;
 }
 
@@ -17,7 +25,8 @@
 
 .info {
   text-align: center;
-  letter-spacing: 2.4px;
+  letter-spacing: .25rem;
+  line-height: 1.4;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -25,22 +34,22 @@
 }
 
 .alert-msg, .contact-msg {
-  padding: 30px;
+  padding: 1rem;
 }
 
 .contact-msg {
-  font-size: 18px;
-  margin-bottom: 60px;
+  font-size: 1.8rem;
+  margin-bottom: 6rem;
 }
 
 .contact-btn {
   color: #eee;
   background: #f03;
-  font-size: 20px;
+  font-size: 2rem;
   text-decoration: none;
-  padding: 20px;
-  border-radius: 25px;
-  box-shadow: 0 5px 30px #222;
+  padding: 2rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 5px 3rem #222;
 }
 
 .contact-btn:hover {
