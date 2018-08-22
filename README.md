@@ -1,3 +1,1 @@
-This is my personal portfolio website.
-
-I keep updating it as I learn new things or create some cool project I'd like to show.
+This is my old landing page used while I was building my portfolio.
