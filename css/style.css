@@ -42,7 +42,7 @@ body {
 }
 
 .launch-date {
-  color: #0c6;
+  color: #7350a2;
 }
 
 footer {
@@ -64,7 +64,7 @@ footer {
 }
 
 .icon:hover {
-  color: #0c6;
+  color: #7350a2;
 }
 
 .footer-text {
@@ -85,7 +85,7 @@ footer {
 }
 
 .lang a {
-  color: #0c6;
+  color: #7350a2;
   font-size: 1.6rem;
   text-decoration: none;
   padding: 1rem;
