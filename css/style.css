@@ -77,18 +77,7 @@ footer {
 
 .copyright {
   font-size: 1.4rem;
-  padding-bottom: 1.2rem;
-}
-
-.lang {
-  padding-bottom: 2rem;
-}
-
-.lang a {
-  color: #7350a2;
-  font-size: 1.6rem;
-  text-decoration: none;
-  padding: 1rem;
+  padding-bottom: 2.4rem;
 }
 
 /* MEDIA QUERIES */
@@ -115,8 +104,7 @@ footer {
     font-size: 5.4rem;
   }
 
-  .copyright,
-  .lang a {
+  .copyright {
     font-size: 2rem;
     padding-bottom: 3rem;
   }
