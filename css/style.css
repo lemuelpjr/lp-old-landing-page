@@ -12,100 +12,13 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #fff;
-  color: #555;
-  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
 
 .header {
+  font-size: 3rem;
+  padding: 2rem;
   height: 100vh;
-  /* Perfect center content */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.info {
-  font-size: 2.8rem;
-  letter-spacing: .2rem;
-  padding: 1rem;
-}
-
-.alert-msg,
-.launch-msg {
-  padding: 1rem;
-}
-
-.launch-msg {
-  font-size: 2.6rem;
-}
-
-.launch-date {
-  color: #7350a2;
-}
-
-footer {
-  background-color: #f9f9f9;
-  text-align: center;
-  font-weight: normal;
-  letter-spacing: .12rem;
-}
-
-.social-media {
-  padding: 2rem 0 4rem 0;
-}
-
-.icon {
-  color: #555;
-  font-size: 4rem;
-  padding: 0 1rem;
-  transition: .3s;
-}
-
-.icon:hover {
-  color: #7350a2;
-}
-
-.footer-text {
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 4rem 2rem;
-  max-width: 800px;
+  max-width: 80rem;
   margin: auto;
-}
-
-.copyright {
-  font-size: 1.4rem;
-  padding-bottom: 2.4rem;
-}
-
-/* MEDIA QUERIES */
-@media only screen and (min-width: 2000px) {
-  .info {
-    font-size: 5rem;
-  }
-
-  .alert-msg {
-    margin-bottom: 2rem;
-  }
-
-  .launch-msg {
-    font-size: 4rem;
-  }
-
-  .footer-text {
-    padding-top: 6rem;
-    font-size: 3.2rem;
-    max-width: 960px;
-  }
-
-  .icon {
-    font-size: 5.4rem;
-  }
-
-  .copyright {
-    font-size: 2rem;
-    padding-bottom: 3rem;
-  }
 }
